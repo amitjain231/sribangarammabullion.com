@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title>Sri Bangaramma Bullion</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	
+	<!--  Needs to be updated before publishing  End -->
+	
+	<!-- Jquery Mobile JS and CSS -->
+	<link rel="stylesheet" type='text/css' href="css/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" type='text/css' href="css/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel="stylesheet" type='text/css' href="css/jquery.mobile.theme-1.4.5.min.css" />
+	<link rel="stylesheet" type='text/css' href="css/animate.css-master/animate.min.css" />
+	<link rel="stylesheet" type='text/css' href="css/SBRBGetMobileRates.css?ts=20181022061515" />
+	<!-- <link rel='stylesheet' type='text/css' href='css/rupee.css'></link>
+	<link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>	 -->
+	
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/SBRBGetMobileRates.js?ts=20181022061515"></script>
+	
+</head> 
+
+
+<body>
+
+	<!-- Load spinner -->
+		<div class="cl_spin_loader_wrapper">	
+			<div class="cl_spin_loader"></div>
+		</div>
+
+
+
+
+
+
+<div data-role="page" id="mainpage" 
+				data-theme="b" class="cl_page_sbrb_main">
+
+
+	<div data-role="header" data-theme="b" 
+		data-position="fixed" 
+		data-tap-toggle="false"	
+		class=" cl_sbrb_top_header">
+		
+		<div class="cl_div_hdr_inner" > 
+			<table>
+				<tr>
+						<td>
+								<img src="./images/sbrb_logo.png"  style="width: 70px; height: 70px; padding-right: 10px" />
+						</td>
+						<td>
+							Sri Bangaramma	<br />Bullion	
+						</td>
+				</tr>	
+			</table>
+		  
+		  </div>
+
+		
+	</div>		<!-- Close Header -->
+
+	
+	<div role="main" class="ui-content" style="padding-top:0px;">
+		
+
+		<div class="ui-grid-solo" >			
+			<div class="ui-block-a" >
+				<div class="cl_sbrb_div_outer_marquee">
+					<marquee
+						direction=left
+						scrolldelay="150"  
+						onmouseover="this.stop();" 
+						onmouseout="this.start();" 
+						class="cl_marq_scrollMsg"
+						id="id_scroll_marq" >
+					</marquee>
+				</div>					
+			</div>		
+		</div>	<!-- Close ui-grid-solo -->
+
+
+
+		<!-- Separator -->
+		<div class="ui-grid-solo" style="margin: 3px 0px;"></div>
+		
+		<div class="ui-grid-b cl_div_grid_comex_wrapper  animated fadeIn" id="id_div_grid_vja_comex">
+			<div class="ui-block-a cl_div_symbol_xauusd cl_div_bk_sym_xauusd_ask" >
+				<table class="cl_tbl_comex_data">	
+					<tr>
+							<td colspan="2"> <span>Gold Spot</span> </td>
+					</tr>
+					<tr>
+						<td colspan="2" class="cl_td_comex_rate"> 
+								<span id="id_span_data_xauusd_ask"> 1225.63 </span> 
+						</td>
+					</tr>
+					<tr>
+							<td>
+									<span class="cl_span_hl" >H: &nbsp;</span>
+									<span id="id_span_data_xauusd_high" >&nbsp;</span>
+							</td>
+							<td>
+									<span class="cl_span_hl" >&nbsp; L: &nbsp;</span>
+									<span id="id_span_data_xauusd_low" >&nbsp;</span>
+							</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div class="ui-block-b cl_div_symbol_xagusd cl_div_bk_sym_xagusd_ask" >
+				<table class="cl_tbl_comex_data">
+					<tr>
+							<td colspan="2"> <span>Silver Spot</span> </td>
+					</tr>
+					<tr>
+						<td colspan="2" class="cl_td_comex_rate"> 
+								<span id="id_span_data_xagusd_ask"> &nbsp; </span> 
+						</td>
+					</tr>
+					<tr>
+							<td>
+									<span class="cl_span_hl">H: &nbsp;</span>
+									<span id="id_span_data_xagusd_high" >&nbsp;</span>
+							</td>
+							<td>
+									<span class="cl_span_hl">&nbsp; L: &nbsp;</span>
+									<span id="id_span_data_xagusd_low" >&nbsp;</span>
+							</td>
+					</tr>
+				</table>
+			</div>
+
+
+			<div class="ui-block-c cl_div_symbol_usdinr cl_div_bk_sym_usdinr_ask" >
+				<table class="cl_tbl_comex_data">
+					<tr>
+							<td colspan="2"> <span>INR Spot</span> </td>
+					</tr>
+					<tr>
+						<td colspan="2" class="cl_td_comex_rate"> 
+								<span id="id_span_data_usdinr_ask"> &nbsp; </span> 
+						</td>
+					</tr>
+					<tr>
+							<td>
+									<span class="cl_span_hl">H: &nbsp;</span>
+									<span id="id_span_data_usdinr_high" >&nbsp;</span>
+							</td>
+							<td>
+									<span class="cl_span_hl">&nbsp; L: &nbsp;</span>
+									<span id="id_span_data_usdinr_low" >&nbsp;</span>
+							</td>
+					</tr>
+				</table>
+			</div>
+
+			
+		</div>   <!-- Close ui-grid-b -->
+			
+			
+		<!-- Separator -->
+		<div class="ui-grid-solo" style="margin: 5px 0px;"></div>	
+			
+		<div class="ui-grid-solo cl_symbol_loc_vja  animated fadeIn">
+			<div class="ui-block-a cl_div_bullion_hdg" >				
+					Vijayawada
+			</div>		
+		</div>
+
+		<div class="ui-grid-b cl_symbol_hdr_vja animated fadeIn">			
+			<div class="ui-block-a" >
+					&nbsp;
+			</div>	
+			<div class="ui-block-b cl_div_vja_buycol" >
+					Buy
+			</div>	
+			<div class="ui-block-c cl_div_vja_sellcol" >
+					Sell
+			</div>	
+		</div>
+
+
+
+		<div class="ui-grid-b cl_div_grid_vja_symbol_wrapper  animated fadeIn" id="id_div_grid_vja_g999r">
+			<div class="ui-block-a " id="id_div_vja_rate_label_g999r">
+				<table>
+					<tr>
+						<td> Gold RTGS </td>
+					</tr>
+					<tr class="cl_tr_vja_rdyflag_g999r">
+						<td> <span style="" class=" cl_span_vja_ready_blinking">READY</span> </td>
+					</tr>
+				</table>
+			</div>
+			<div class="ui-block-b cl_div_vja_buycol">
+				<span id="id_span_vja_data_g999r_bid">3285.00</span>
+			</div>
+			<div class="ui-block-c cl_div_vja_sellcol">
+				<span id="id_span_vja_data_g999r_ask">&nbsp;</span>
+			</div>		
+		</div> <!-- Close ui-grid-b -->	
+		
+		<div class="ui-grid-b cl_div_grid_vja_symbol_wrapper animated fadeIn" id="id_div_grid_vja_g999t">
+			<div class="ui-block-a " id="id_div_vja_rate_label_g999t">
+				<table>
+					<tr>
+						<td> Gold TCS </td>
+					</tr>
+					<tr class="cl_tr_vja_rdyflag_g999t">
+						<td> <span style="" class=" cl_span_vja_ready_blinking">READY</span> </td>
+					</tr>
+				</table>
+			</div>
+			<div class="ui-block-b cl_div_vja_buycol">
+				<span id="id_span_vja_data_g999t_bid">&nbsp;</span>
+			</div>
+			<div class="ui-block-c cl_div_vja_sellcol">
+				<span id="id_span_vja_data_g999t_ask">&nbsp;</span>
+			</div>
+		</div> <!-- Close ui-grid-b -->
+
+		<div class="ui-grid-b cl_div_grid_vja_symbol_wrapper animated fadeIn" id="id_div_grid_vja_gft999r">
+			<div class="ui-block-a " id="id_div_vja_rate_label_gft999r">
+				<table>
+					<tr>
+						<td> Gold FT RTGS </td>
+					</tr>
+					<tr class="cl_tr_vja_rdyflag_gft999r">
+						<td> <span style="" class=" cl_span_vja_ready_blinking">READY</span> </td>
+					</tr>
+				</table>
+			</div>
+			<div class="ui-block-b cl_div_vja_buycol">
+				<span id="id_span_vja_data_gft999r_bid">&nbsp;</span>
+			</div>
+			<div class="ui-block-c cl_div_vja_sellcol">
+				<span id="id_span_vja_data_gft999r_ask">&nbsp;</span>
+			</div>
+		</div> <!-- Close ui-grid-b -->
+
+		<div class="ui-grid-b cl_div_grid_vja_symbol_wrapper animated fadeIn" id="id_div_grid_vja_gft999t">
+			<div class="ui-block-a " id="id_div_vja_rate_label_gft999t">
+				<table>
+					<tr>
+						<td> Gold FT TCS </td>
+					</tr>
+					<tr class="cl_tr_vja_rdyflag_gft999t">
+						<td> <span style="" class=" cl_span_vja_ready_blinking">READY</span> </td>
+					</tr>
+				</table>
+			</div>
+			<div class="ui-block-b cl_div_vja_buycol">
+				<span id="id_span_vja_data_gft999t_bid">&nbsp;</span>
+			</div>
+			<div class="ui-block-c cl_div_vja_sellcol">
+				<span id="id_span_vja_data_gft999t_ask">&nbsp;</span>
+			</div>
+		</div> <!-- Close ui-grid-b -->
+
+		<div class="ui-grid-b cl_div_grid_vja_symbol_wrapper animated fadeIn" id="id_div_grid_vja_s999r">
+			<div class="ui-block-a " id="id_div_vja_rate_label_s999r">
+				<table>
+					<tr>
+						<td> Silver RTGS </td>
+					</tr>
+					<tr class="cl_tr_vja_rdyflag_s999r">
+						<td> <span style="" class=" cl_span_vja_ready_blinking">READY</span> </td>
+					</tr>
+				</table>
+			</div>
+			<div class="ui-block-b cl_div_vja_buycol">
+				<span id="id_span_vja_data_s999r_bid">&nbsp;</span>
+			</div>
+			<div class="ui-block-c cl_div_vja_sellcol">
+				<span id="id_span_vja_data_s999r_ask">&nbsp;</span>
+			</div>
+		</div> <!-- Close ui-grid-b -->
+
+		<div class="ui-grid-b cl_div_grid_vja_symbol_wrapper animated fadeIn" id="id_div_grid_vja_s999t">
+			<div class="ui-block-a " id="id_div_vja_rate_label_s999t">
+				<table>
+					<tr>
+						<td> Silver TCS </td>
+					</tr>
+					<tr class="cl_tr_vja_rdyflag_s999t">
+						<td> <span style="" class=" cl_span_vja_ready_blinking">READY</span> </td>
+					</tr>
+				</table>
+			</div>
+			<div class="ui-block-b cl_div_vja_buycol">
+				<span id="id_span_vja_data_s999t_bid">&nbsp;</span>
+			</div>
+			<div class="ui-block-c cl_div_vja_sellcol">
+				<span id="id_span_vja_data_s999t_ask">&nbsp;</span>
+			</div>
+		</div>  <!-- Close ui-grid-b -->
+	
+	</div>			<!--  Close main / Content -->
+	
+	<!--               Footer           -->
+	<div data-role="footer" data-position="fixed" 
+		data-tap-toggle="false"
+		data-iconpos="bottom">	
+		
+		<div data-role="navbar"  class="custom-navbar">
+			<ul style="background-color:  transparent;">
+				<li>
+
+					<a id="id_a_sbrb_booking" href="#myBookingPage" data-icon="phone" 
+					 class="ui-btn ui-btn-inline" >
+						<span class="cl_span_footernav_menuitem">
+								Booking
+							</span>
+					</a>
+
+
+					</li>
+				<li>
+						<a id="id_a_sbrb_contact" href="#myContactPage" data-icon="user"  
+										class="ui-btn ui-btn-inline" >
+						<span class="cl_span_footernav_menuitem">Contact</span>
+						</a>
+					</li>
+				
+				<li>
+					<a id="id_a_sbrb_rtgs" href="#myRtgsPage" data-icon="location" 
+										class="ui-btn ui-btn-inline" >
+						<span class="cl_span_footernav_menuitem">RTGS</span>
+					</a>
+				</li>
+			</ul>
+
+		</div>		<!-- Navbar -->
+		
+		<div style="background-color: #052F5C;">
+			<div class="ui-grid-a">
+				<div class="ui-block-a cl_sbrb_div_footer_copyright">
+					Copyright &copy 
+					<script type='text/javascript'>document.write( new Date().getFullYear());</script>
+					by Sri Bangaramma Bullion
+				</div>
+				
+				<div class="ui-block-b cl_sbrb_divPoweredBy">
+					Powered by Nem Solutions
+				</div>
+				
+			</div>
+		</div>
+
+
+
+
+
+		<!--		
+		<div data-role="popup" id="myPopupBooking" class="ui-content" 
+			data-overlay-theme="b" style="background-color: #47484A;">
+		
+		  <a href="#" data-rel="back" data-role="button"  data-theme="b" 
+			data-icon="delete" data-iconpos="notext" class="ui-btn-right">&nbsp;</a>
+			
+			<p style="color:black; background-color: #FAF8A2;padding: 10px;">Booking Contact 
+				<span style="font-family: Roboto Slab, arial; font-size: 6pt;color:blue;"> (Touch to Call)</span> </p>
+				<table style="margin: 0px;">
+					<tr>
+						<td> 
+							<a href="#" data-role="button" data-icon="phone" data-iconpos="notext">&nbsp;</a>					
+						</td>
+						
+						<td> <a style="font-size: 8pt;" href="tel:08666664488">+91 866 666 4488</a></td>
+						<td>&nbsp;</td>
+					</tr>
+				
+					<tr>
+						<td> 
+							<a href="#" data-role="button" data-icon="phone" data-iconpos="notext">&nbsp;</a>					
+						</td>
+					
+						<td> <a style="font-size: 8pt;" href="tel:9440943890">+91 9440943890</a></td>
+						
+						<td>
+							<span style="font-size: 8pt;color:yellow;">(Basant Lal Jain) </span>
+						</td>	
+					
+					</tr>	
+				
+					<tr>
+						<td> 
+							<a href="#" data-role="button" data-icon="user" data-iconpos="notext">&nbsp;</a>					
+						</td>
+							
+						<td> <a style="font-size: 8pt;" href="tel:9701918241">+91 9701918241</a></td>
+					
+						<td>
+							<span style="font-size: 8pt;color:yellow;">(Amit kumar Jain)</span> 
+						</td>
+					</tr>	
+					
+				</table>
+
+		</div>    myPopupBooking   -->
+		
+		<!--
+		<div data-role="popup" id="myPopupContact" class="ui-content" 
+			data-overlay-theme="b" style="background-color: #E66510;">
+			
+			  <a href="#" data-rel="back" data-role="button"  data-theme="b" 
+				data-icon="delete" data-iconpos="notext" class="ui-btn-right">&nbsp;</a>
+		
+				<table>
+					<tr>
+						<td > 
+							<a href="#" data-role="button" data-icon="location" data-iconpos="notext">&nbsp;</a>
+							
+						</td>
+						<td vertical-align='middle'>
+							<span style="font-size: 14pt; font-weight: bold; vertical-align:middle;">Registered Office</span></td>
+						
+					</tr>
+					<tr>
+						<td colspan=2 style="color:black; font-size: 12pt;font-family: Montserrat;"> Sri Bangaramma Bullion</td>
+					</tr>
+					<tr>
+						<td colspan=2 style="color:yellow; font-size: 10pt;font-family: sans-serif;"> 27-14-16, Jaihind Complex, EV Plaza</td>						
+					</tr>
+					<tr>
+						<td colspan=2 style="color:yellow; font-size: 10pt;font-family: sans-serif;"> 2nd Floor, Rajagopalachari Street,</td>
+					</tr>
+					<tr>
+						<td colspan=2 style="color:yellow; font-size: 10pt;font-family: sans-serif;"> Governorpet, Vijayawada</td>
+					</tr>
+					<tr>
+						<td colspan=2 style="color:yellow; font-size: 10pt;font-family: sans-serif;">Andhra Pradesh 520002, India</td>
+					</tr>
+					
+				
+				</table>
+				
+				<hr />
+				
+				<table>
+					
+					<tr>
+						<td> 
+							<a href="#" data-role="button" data-icon="mail" data-iconpos="notext">&nbsp;</a>
+						</td>
+						<td> 
+							<span class="cl_span_contact_email"> sribangarammabullionrediff@gmail.com</span>
+						</td>
+					</tr>
+					
+				</table>	
+				
+				
+				<div style="width:200px; height: 100px;border: 0px; margin: 0px auto;" id="id_cu_ifrm_googlemap" >
+					
+				</div>
+				
+		</div>    myPopupContact   -->
+		
+		<!--
+		<div data-role="popup" id="myPopupRTGS" class="ui-content" 
+			data-overlay-theme="b" style="padding: 5px 30px;background-color: #BA0D5E;">
+			
+			  <a href="#" data-rel="back" data-role="button"  data-theme="b" 
+				data-icon="delete" data-iconpos="notext" class="ui-btn-right">&nbsp;</a>
+		
+				<table class="cl_tbl_bankinfo" > 
+					<tr>
+						<td> 
+						
+							<a href="#" data-role="button" data-icon="home" data-iconpos="notext">&nbsp;</a>
+							
+						</td>
+						<td vertical-align='middle'>
+							<span style="padding-left:10px;font-size: 14pt; font-weight: bold; vertical-align:middle;">
+							Bank Details
+							</span>
+						</td>
+						
+					</tr>
+					
+					<tr>
+						<td colspan=2> <hr /> </td>
+					</tr>
+					<tr>
+						<td class="cl_td_banklabel"> Bank:</td>
+						<td class="cl_td_bankdata"> <span style="color:yellow;">Axis Bank</span></td>
+					</tr>
+					<tr>
+						<td class="cl_td_banklabel"> Branch:</td>
+						<td class="cl_td_bankdata"> One Town Branch</td>
+					</tr>
+					<tr>
+						<td class="cl_td_banklabel"> Name:</td>
+						<td class="cl_td_bankdata"> Vardhaman Bullion</td>
+					</tr>
+					<tr>
+						<td class="cl_td_banklabel"> Account:</td>
+						<td class="cl_td_bankdata"> 913020050737711</td>
+					</tr>
+					<tr>
+						<td class="cl_td_banklabel"> IFSC:</td>
+						<td class="cl_td_bankdata"> UTIB0000555</td>
+					</tr>
+					
+					<tr>
+						<td colspan=2> <hr /> </td>
+					</tr>
+				</table>
+				
+				
+		</div>    myPopupContact   -->
+		
+	</div>  <!-- Footer Close -->
+	
+</div> <!-- mainpage -->
+
+
+		<div data-role="page" id="myBookingPage" class="cl_page_booking">
+				<div data-role="header">
+		
+				</div> <!-- /header -->		
+
+				<div role="main" class="ui-content cl_book_content" >
+		
+					  <a href="#mainpage" data-rel="back" data-role="button"  
+					  				 id="id_a_backbtn_booking" 
+										class="ui-btn-left ui-shadow ui-corner-all">Back</a>
+						
+						<div class="ui-grid-solo" style="margin-top: 30px "></div>	
+
+						<p class= "cl_p_booking_hdr" >Booking and Delivery 
+							<span style="font-family: Roboto, arial; font-size: 6pt;color: yellow;"> (Touch to Call)</span> 
+						</p>
+							
+						<div class="cl_div_booking_wrapper">	
+						<table class="cl_tbl_booking">
+							<tr>
+								<td>
+									 <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-phone ui-btn-icon-notext ui-btn-inline">
+									</a>
+									
+								</td>
+								
+								<td> <a  href="tel: 9989400916">+91 99894 00916</a></td>
+								
+							</tr>
+						
+							<tr>
+								<td> 
+									 <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-phone ui-btn-icon-notext ui-btn-inline">
+									</a>
+								</td>
+							
+								<td> <a  href="tel:7780363977">+91 77803 63977</a></td>
+								
+							
+							</tr>	
+						
+							<tr>
+								<td> 
+									 <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-mail ui-btn-icon-notext ui-btn-inline">
+									</a>
+								</td>
+									
+								<td> <a href="javascript:void(0);" >sribangarammabullionrediff@gmail.com</a></td>
+							
+							</tr>	
+							
+						</table>
+
+					</div>  <!-- Close div cl_div_booking_wrapper -->
+
+			 </div><!-- /content -->
+
+
+
+				<div data-role="footer">
+					
+				</div> <!-- /footer -->
+
+		</div> <!--  myBookingPage   -->
+
+<div data-role="page" id="myContactPage" class="cl_page_contact">
+			<div data-role="header">
+		
+				</div> <!-- /header -->		
+
+				<div role="main" class="ui-content cl_contact_content" >	
+
+			  <a href="#mainpage" data-rel="back" data-role="button"  
+					  				 id="id_a_backbtn_contact" class="ui-btn-left ui-shadow ui-corner-all">Back</a>
+						
+				<div class="ui-grid-solo" style="margin-top: 50px "></div>	
+		
+				<div class="cl_div_contact_wrapper">
+
+						<table class="cl_tbl_contact">
+							<tr>
+								<td align="left" > 
+									<a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-location ui-btn-icon-notext ui-btn-inline" >
+									</a>
+										<span style="font-size: 14pt; font-weight: bold; color: orange ;">Headquarter</span>	
+								</td>
+							</tr>
+							<tr>
+								<td style="color:blue; font-size: 12pt;"> Sri Bangaramma Bullion</td>
+							</tr>
+							<tr>
+								<td style="color:yellow; font-size: 10pt;"> Shop No. 6, D. No. 27-15-26</td>						
+							</tr>
+							<tr>
+								<td style="color:yellow; font-size: 10pt;font-family: sans-serif;"> Golden Plaza, Opp Jaihind Talkies</td>
+							</tr>
+							<tr>
+								<td style="color:yellow; font-size: 10pt;font-family: sans-serif;"> Mudda Subbah Street</td>
+							</tr>
+							<tr>
+								<td style="color:yellow; font-size: 10pt;font-family: sans-serif;"> Governorpet, Vijayawada - 520002 </td>
+							</tr>
+							<tr>
+								<td style="color:yellow; font-size: 10pt;font-family: sans-serif;">Andhra Pradesh, India</td>
+							</tr>
+							<tr>
+								<td style="color:#10e8d6; font-size: 10pt;font-family: sans-serif;">
+									GSTIN: 37BXUPG3498L1ZH </td>
+							</tr>
+						</table>
+						
+						<hr />
+						
+						<table>
+							<tr>
+								<td> 
+									<a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-phone ui-btn-icon-notext ui-btn-inline" >
+									</a>
+								</td>
+								<td> 
+									<span style="font-size: 10pt; color:#33F2E9; "> +91 9989400916</span>
+								</td>
+							</tr>
+
+							<tr>
+								<td> 
+									<a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-phone ui-btn-icon-notext ui-btn-inline">
+									</a>
+								</td>
+								<td> 
+									<span  style="font-size: 10pt; color:#33F2E9; "> +91 7780363977</span>
+								</td>
+							</tr>
+
+							<tr>
+								<td> 
+									<a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-mail ui-btn-icon-notext ui-btn-inline">
+									</a>
+								</td>
+								<td> 
+									<span class="cl_span_contact_email"> sribangarammabullionrediff@gmail.com</span>
+								</td>
+							</tr>
+							
+						</table>
+
+				</div>  <!-- Close div Wrapper -->
+				
+				</div>  <!-- Close div main -->		
+				
+
+
+				<div data-role="footer">
+					
+				</div> <!-- /footer -->
+				
+		</div>    <!--myContactPage   -->
+
+
+
+		<div data-role="page" id="myRtgsPage" class="cl_page_rtgs" >
+				<div data-role="header">
+		
+				</div> <!-- /header -->		
+
+				<div role="main" class="ui-content cl_rtgs_content" >	
+
+				
+			  <a href="#mainpage" data-rel="back" data-role="button"  
+					  				 id="id_a_backbtn_rtgs" class="ui-btn-left ui-shadow ui-corner-all">Back</a>
+						
+				<div class="ui-grid-solo" style="margin-top: 50px "></div>	
+		
+				<div class="cl_div_rtgs_wrapper">			
+					 
+				
+						<table class="cl_tbl_rtgs" > 
+							<tr>
+								<td colspan="2" style="text-align: center;">
+									<img src="./images/IDBIBankLogo.png" />
+								</td>
+								
+							</tr>
+							
+							<tr>
+								<td colspan=2> <hr /> </td>
+							</tr>
+							<tr>
+								<td> Bank:</td>
+								<td> <span style="color:yellow; font-size: 15pt;">IDBI Bank</span></td>
+							</tr>
+							<tr>
+								<td> Branch:</td>
+								<td> Governorpet, Vijayawada</td>
+							</tr>
+							<tr>
+								<td> Account name:</td>
+								<td> Sri Bangaramma Bullion</td>
+							</tr>
+							<tr>
+								<td> Account:</td>
+								<td> 0151102000023047</td>
+							</tr>
+							<tr>
+								<td> IFSC Code:</td>
+								<td> IBKL0000151</td>
+							</tr>
+							
+							<tr>
+								<td colspan=2> <hr /> </td>
+							</tr>
+						</table>
+				
+						</div>  <!-- Close Div Wrapper -->
+				</div>
+						
+				<div data-role="footer">
+					
+				</div> <!-- /footer -->
+				
+		</div>    <!-- myRtgsPage   -->
+
+
+
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+  // executes when HTML-Document is loaded and DOM is ready
+  jsPostWindowLoad();
+});
+
+
+	$(window).load(function() {
+		// executes when complete page is fully loaded, including all frames, objects and images
+		jsPostDocumentReady();
+	});
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.sribangarammabullion.live"
+        versionCode="10001"
+        android-versionCode="10001" 
+        version   = "1.0.0">
+
+
+    <name>Sri Bangaramma Bullion</name>
+
+    <description>
+    		Sri Bangaramma Bullion is a pioneer company dealing in business of bullion , Jewellery (Silver and Gold) in India. 
+    </description>
+
+    <author href="http://www.nemsolutions.com" email="amitjain231@gmail.com">
+        Amit kumar Jain
+    </author>
+
+	
+	<gap:platform name="android" />
+	<gap:plugin name='cordova-plugin-whitelist' spec='1.0.0' source='npm' />
+	<access origin="*" />	
+	<allow-navigation href="http://*/*" />
+	<allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+	
+	
+	<!-- ANDROID * ANDROID * ANDROID -->
+	<icon src="icon.png" platform="android" density="ldpi" />
+	<icon src="icon.png" platform="android" density="mdpi" />
+	<icon src="icon.png" platform="android" density="hdpi" />
+	<icon src="icon.png" platform="android" density="xhdpi" />
+
+	
+	
+
+	<!-- Preferences Permissions, Phonegap version to build -->
+	<preference name="permissions" value="none"/>
+	<preference name="phonegap-version" value="cli-7.0.1" />
+	<preference name="android-targetSdkVersion" value="26"/>
+	
+	<!-- Required only Notification permission -->
+	<feature name="http://api.phonegap.com/1.0/notification"/>
+
+</widget>
