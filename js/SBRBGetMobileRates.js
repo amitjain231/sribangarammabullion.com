@@ -34,16 +34,17 @@ jsGblVJAGFT999TAsk = 0;
 jsGblVJAS999RAsk 		= 0;
 jsGblVJAS999TAsk 		= 0;
 
-
+/*
 jsGlobalUserVisitURL	= "http://local_sbrb/dynamic/SBRBPGUpdateMobileUserVisitCount.php";
 jsGlobalGetScrollURL	= "http://local_sbrb/dynamic/SBRBPGGetMobileScrollMessage.php";
-//jsGlobalJsonpUrl 		= 'http://local_sbrb/dynamic/vbPgGetMobileRatesDynGet.php';
 jsGlobalJsonpUrl 		= 'http://127.0.0.1:9005';
+*/
 
-//jsGlobalUserVisitURL	= "http://www.vardhamanbullion.com/dynamic/vbPGUpdateMobileUserVisitCount.php";
-//jsGlobalGetScrollURL	= "http://www.vardhamanbullion.com/dynamic/vbPGGetMobileScrollMessage.php";
-//jsGlobalJsonpUrl 		= 'http://www.vardhamanbullion.com/dynamic/vbPgGetMobileRatesDynGet.php';		
-//jsGlobalJsonpUrl 		= 'http://www.vardhamanbullion.com/dynamic/vbPgGetMobileRatesDynGet.php';		
+
+jsGlobalUserVisitURL	= "http://www.sribangarammabullion.com/dynamic/SBRBPGUpdateMobileUserVisitCount.php";
+jsGlobalGetScrollURL	= "http://www.sribangarammabullion.com/dynamic/SBRBPGGetMobileScrollMessage.php";
+jsGlobalJsonpUrl 		= 'http://132.148.85.27:9005';
+
 
 //------------------ Global Config for Jquery Mobile ------------->
 // Set Fallback transition for devices that lack 3D support
