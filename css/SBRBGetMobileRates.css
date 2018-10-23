@@ -1,1 +1,567 @@
-.cl_div_grid_comex_wrapper,.cl_div_grid_vja_symbol_wrapper{box-shadow:8px 8px 15px #888}@font-face{font-family:Montserrat;src:url(../font/Montserrat-Regular.ttf)}@font-face{font-family:Roboto;src:url(../font/Roboto-Regular.ttf)}@font-face{font-family:Pacifico;src:url(../font/Pacifico-Regular.ttf)}body .ui-body-c,body .ui-overlay-c{text-shadow:0 0 0}.ui-icon-home:after,.ui-icon-location:after,.ui-icon-mail:after,.ui-icon-phone:after,.ui-icon-user:after{background-color:red;border-color:#000}@-webkit-keyframes AnimLoadspin{0%{-webkit-transform:rotate(0)}100%{-webkit-transform:rotate(360deg)}}@keyframes AnimLoadspin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}.cl_spin_loader{border:8px solid #f3f3f3;border-radius:50%;border-top:8px solid #3498db;width:40px;height:40px;margin:50vh auto;-webkit-animation:AnimLoadspin 2s linear infinite;animation:AnimLoadspin 2s linear infinite}.cl_spin_loader_wrapper{position:absolute;left:0;top:0;border:2px solid red;width:100%;height:100%;text-align:center;z-index:100;background-color:#000;opacity:.7}.cl_div_hdr_inner table{margin:0 auto}.cl_sbrb_top_header{height:75px;text-align:center;padding-top:0;font-family:Pacifico;font-size:16pt;color:#f99f4f;background-color:#00112d;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;border:none;-o-text-overflow:clip;text-overflow:clip;background:-webkit-radial-gradient(100% 150%,circle,#00112d 24%,#021f4f 25%,#021f4f 28%,#00112d 29%,#00112d 36%,#021f4f 36%,#021f4f 40%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 100%),radial-gradient(circle at 0 150%,#00112d 24%,#021f4f 25%,#021f4f 28%,#00112d 29%,#00112d 36%,#021f4f 36%,#021f4f 40%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 100%),radial-gradient(circle at 50% 100%,#021f4f 10%,#00112d 11%,#00112d 23%,#021f4f 24%,#021f4f 30%,#00112d 31%,#00112d 43%,#021f4f 44%,#021f4f 50%,#00112d 51%,#00112d 63%,#021f4f 64%,#021f4f 71%,rgba(0,0,0,0) 71%,rgba(0,0,0,0) 100%),radial-gradient(circle at 100% 50%,#021f4f 5%,#00112d 6%,#00112d 15%,#021f4f 16%,#021f4f 20%,#00112d 21%,#00112d 30%,#021f4f 31%,#021f4f 35%,#00112d 36%,#00112d 45%,#021f4f 46%,#021f4f 49%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%),radial-gradient(circle at 0 50%,#021f4f 5%,#00112d 6%,#00112d 15%,#021f4f 16%,#021f4f 20%,#00112d 21%,#00112d 30%,#021f4f 31%,#021f4f 35%,#00112d 36%,#00112d 45%,#021f4f 46%,#021f4f 49%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%),#a5cff9;background:-moz-radial-gradient(100% 150%,circle,#00112d 24%,#021f4f 25%,#021f4f 28%,#00112d 29%,#00112d 36%,#021f4f 36%,#021f4f 40%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 100%),radial-gradient(circle at 0 150%,#00112d 24%,#021f4f 25%,#021f4f 28%,#00112d 29%,#00112d 36%,#021f4f 36%,#021f4f 40%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 100%),radial-gradient(circle at 50% 100%,#021f4f 10%,#00112d 11%,#00112d 23%,#021f4f 24%,#021f4f 30%,#00112d 31%,#00112d 43%,#021f4f 44%,#021f4f 50%,#00112d 51%,#00112d 63%,#021f4f 64%,#021f4f 71%,rgba(0,0,0,0) 71%,rgba(0,0,0,0) 100%),radial-gradient(circle at 100% 50%,#021f4f 5%,#00112d 6%,#00112d 15%,#021f4f 16%,#021f4f 20%,#00112d 21%,#00112d 30%,#021f4f 31%,#021f4f 35%,#00112d 36%,#00112d 45%,#021f4f 46%,#021f4f 49%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%),radial-gradient(circle at 0 50%,#021f4f 5%,#00112d 6%,#00112d 15%,#021f4f 16%,#021f4f 20%,#00112d 21%,#00112d 30%,#021f4f 31%,#021f4f 35%,#00112d 36%,#00112d 45%,#021f4f 46%,#021f4f 49%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%),#a5cff9;background:radial-gradient(circle at 100% 150%,#00112d 24%,#021f4f 25%,#021f4f 28%,#00112d 29%,#00112d 36%,#021f4f 36%,#021f4f 40%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 100%),radial-gradient(circle at 0 150%,#00112d 24%,#021f4f 25%,#021f4f 28%,#00112d 29%,#00112d 36%,#021f4f 36%,#021f4f 40%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 100%),radial-gradient(circle at 50% 100%,#021f4f 10%,#00112d 11%,#00112d 23%,#021f4f 24%,#021f4f 30%,#00112d 31%,#00112d 43%,#021f4f 44%,#021f4f 50%,#00112d 51%,#00112d 63%,#021f4f 64%,#021f4f 71%,rgba(0,0,0,0) 71%,rgba(0,0,0,0) 100%),radial-gradient(circle at 100% 50%,#021f4f 5%,#00112d 6%,#00112d 15%,#021f4f 16%,#021f4f 20%,#00112d 21%,#00112d 30%,#021f4f 31%,#021f4f 35%,#00112d 36%,#00112d 45%,#021f4f 46%,#021f4f 49%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%),radial-gradient(circle at 0 50%,#021f4f 5%,#00112d 6%,#00112d 15%,#021f4f 16%,#021f4f 20%,#00112d 21%,#00112d 30%,#021f4f 31%,#021f4f 35%,#00112d 36%,#00112d 45%,#021f4f 46%,#021f4f 49%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%),#a5cff9;-webkit-background-origin:padding-box;background-origin:padding-box;-webkit-background-clip:border-box;background-clip:border-box;-webkit-background-size:50px 25px;background-size:50px 25px}.cl_page_sbrb_main{background-color:#fff;background-image:linear-gradient(45deg,#ffe8bf 25%,transparent 25%,transparent 75%,#ffe8bf 75%),linear-gradient(-45deg,#ffe8bf 25%,transparent 25%,transparent 75%,#ffe8bf 75%);background-size:100px 100px;background-position:0 0,50px 50px}h4{text-align:center}.cl_td_block_nostream{background-color:#262222;margin-top:3px}.cl_div_grid_comex_wrapper{text-align:center;background-color:#48494A;border-radius:5px}.cl_tbl_comex_data{border:0;margin:0 auto;border-collapse:collapse;font-family:Roboto;font-size:12pt;width:100%}.cl_div_grid_vja_symbol_wrapper>div:nth-child(2),.cl_div_symbol_xauusd{border-right:2px solid #000}.cl_div_symbol_usdinr{border-left:2px solid #000}.cl_tbl_comex_data tr:nth-child(1),.cl_tbl_comex_data tr:nth-child(2){border-bottom:2px solid #000}.cl_tbl_comex_data tr:nth-child(2)>td{padding:15px 2px}.cl_tbl_comex_data tr:nth-child(2)>td>span{padding:10px;border-radius:5px}.cl_td_comex_rate span{color:#fff;font-size:14pt}.cl_span_hl,.cl_tbl_comex_data tr:nth-child(3)>td>span:nth-child(2){font-size:6pt;color:orange}.cl_span_hl{font-weight:700}.cl_div_bullion_hdg{font-family:sans-serif;font-size:10pt;font-weight:700;color:#fff;background-color:#7a21c6;text-align:center;width:80vw;padding:.25vh 0;margin-top:.5vh;border-radius:5px 5px 0 0}.cl_div_grid_vja_symbol_wrapper,.cl_symbol_hdr_vja{text-align:center;background-color:#48494A;border-bottom:2px solid #000}.cl_div_grid_vja_symbol_wrapper>div>table{margin:0 auto}.cl_div_grid_vja_symbol_wrapper>div:nth-child(1)>table tr:nth-child(1) td{font-size:10pt}.cl_div_grid_vja_symbol_wrapper>div:nth-child(2),.cl_div_grid_vja_symbol_wrapper>div:nth-child(3){background-color:transparent;padding:12px 0}.cl_div_grid_vja_symbol_wrapper>div:nth-child(2)>span,.cl_div_grid_vja_symbol_wrapper>div:nth-child(3)>span{padding:10px;border-radius:5px;font-size:15pt}.cl_span_vja_ready_blinking{font-family:Roboto;font-weight:700;font-size:1.5vh;animation:anim_blinkingText 1.5s infinite}@keyframes anim_blinkingText{0%,100%{color:#fff}49%,99%{color:red}50%{color:#ff0}}.cl_sbrb_div_outer_marquee{background:0 0}.cl_marq_scrollMsg{font-family:Roboto,Montserrat,arial;font-size:12pt;font-weight:400;color:#000;margin:0;padding:0}.custom-navbar{margin:0}.cl_span_footernav_menuitem{color:#fff;font-weight:400;font-family:Roboto,arial;font-size:10pt}.custom-navbar ul li a{background:#ba050b;background:linear-gradient(#ba050b,#160202);background:-moz-linear-gradient(#ba050b,#160202);background:-webkit-linear-gradient(#ba050b,#160202);background:-o-linear-gradient(#ba050b,#160202);background:-ms-linear-gradient(#ba050b,#160202);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ba050b', endColorstr='#160202', GradientType=0 )}.custom-navbar ul li a.ui-btn-active{background:#85051B;background:linear-gradient(#DE2343,#FC3858)}.cl_page_booking,.cl_page_contact{background-image:linear-gradient(45deg,#fcefd9 25%,transparent 25%,transparent 75%,#fcefd9 75%),linear-gradient(-45deg,#fcefd9 25%,transparent 25%,transparent 75%,#fcefd9 75%);background-size:100px 100px;background-position:0 0,50px 50px}.cl_sbrb_div_footer_copyright{text-align:left;font-family:Montserrat,arial;font-size:4.5pt;font-weight:400;color:#d6c2c2;margin-top:2px}.cl_sbrb_divPoweredBy{text-align:right;font-family:Montserrat,arial;font-size:6pt;font-weight:400;color:#a7e804}.cl_p_booking_hdr,.cl_tbl_contact,.cl_tbl_rtgs{font-family:Roboto,arial}.cl_span_contact_email{color:#33F2E9;font-size:10pt}.cl_tbl_bankinfo{border:0;border-collapse:collpase;margin:0 auto}.cl_page_booking{background-color:#fff}.cl_book_content{border:0}.cl_p_booking_hdr{background-color:#00f;padding:10px;font-size:10pt;color:#fff;font-weight:400;border-radius:5px}.cl_div_booking_wrapper{padding:10px;background-color:#205163;border-radius:5px}.cl_tbl_booking{background-color:#205163;width:100%}.cl_tbl_booking tr td:nth-child(1){border-radius:5px;text-align:center}.cl_tbl_booking tr td:nth-child(2){text-align:left}.cl_tbl_booking tr td:nth-child(2) a{font-size:10pt;color:#fff;font-family:Roboto,arial;font-weight:400}.cl_page_contact{background-color:#fff}.cl_contact_content{border:0}.cl_div_contact_wrapper{padding:10px;border-radius:5px;background:#0b0363;background:linear-gradient(#0b0363 0,#07023a 50%,#ce1306 100%);background:-moz-linear-gradient(#0b0363 0,#07023a 50%,#ce1306 100%);background:-webkit-linear-gradient(#0b0363 0,#07023a 50%,#ce1306 100%);background:-o-linear-gradient(#0b0363 0,#07023a 50%,#ce1306 100%);background:-ms-linear-gradient(#0b0363 0,#07023a 50%,#ce1306 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b0363', endColorstr='#07023a', GradientType=0 )}.cl_tbl_contact{width:100%}.cl_page_rtgs{background-color:#fff;background-image:linear-gradient(45deg,#fcefd9 25%,transparent 25%,transparent 75%,#fcefd9 75%),linear-gradient(-45deg,#fcefd9 25%,transparent 25%,transparent 75%,#fcefd9 75%);background-size:100px 100px;background-position:0 0,50px 50px}.cl_rtgs_content{border:0}.cl_div_rtgs_wrapper{padding:10px;border-radius:5px;background:#000;background:radial-gradient(#7c7a7a 0,#161616 100%);background:-moz-radial-gradient(#7c7a7a 0,#161616 100%);background:-webkit-radial-gradient(#7c7a7a 0,#161616 100%);background:-o-radial-gradient(#7c7a7a 0,#161616 100%);background:-ms-radial-gradient(#7c7a7a 0,#161616 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c7a7a', endColorstr='#161616', GradientType=1 )}.cl_tbl_rtgs{width:100%;font-size:12pt;color:#fff}.cl_tbl_rtgs tr td:nth-child(1),.cl_tbl_rtgs tr td:nth-child(2){text-align:center}#id_a_backbtn_booking{color:#fff;background:#0d050d;background:radial-gradient(#e75333 0,#480048 100%);background:-moz-radial-gradient(#e75333 0,#0d050d 100%);background:-webkit-radial-gradient(#e75333 0,#0d050d 100%);background:-o-radial-gradient(#e75333 0,#0d050d 100%);background:-ms-radial-gradient(#e75333 0,#0d050d 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e75333', endColorstr='#0d050d', GradientType=1 )}#id_a_backbtn_contact{color:#fff;background:#480048;background:radial-gradient(#c04848 0,#480048 100%);background:-moz-radial-gradient(#c04848 0,#480048 100%);background:-webkit-radial-gradient(#c04848 0,#480048 100%);background:-o-radial-gradient(#c04848 0,#480048 100%);background:-ms-radial-gradient(#c04848 0,#480048 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#c04848', endColorstr='#480048', GradientType=1 )}#id_a_backbtn_rtgs{color:#fff;background:#020211;background:radial-gradient(#5328b0 0,#020211 100%);background:-moz-radial-gradient(#5328b0 0,#020211 100%);background:-webkit-radial-gradient(#5328b0 0,#020211 100%);background:-o-radial-gradient(#5328b0 0,#020211 100%);background:-ms-radial-gradient(#5328b0 0,#020211 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#c04848', endColorstr='#020211', GradientType=1 )}
+@font-face 
+{
+    font-family: Montserrat;
+    src: url(../font/Montserrat-Regular.ttf);
+}
+
+@font-face 
+{
+    font-family: Roboto;
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+@font-face 
+{
+    font-family: Pacifico;
+    src: url(../font/Pacifico-Regular.ttf);
+}
+
+body .ui-body-c, body .ui-overlay-c{
+  text-shadow:0 0 0;
+}
+
+.ui-icon-phone:after , .ui-icon-mail:after , .ui-icon-location:after , 
+.ui-icon-home:after , .ui-icon-user:after {
+	background-color: red;
+	border-color: black;
+}
+
+/* --------------------- Spinner Start ------------------- */
+
+@-webkit-keyframes AnimLoadspin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes AnimLoadspin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.cl_spin_loader {
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #3498db;
+  width: 40px;  
+  height: 40px;  
+  margin: 50vh auto;
+  -webkit-animation: AnimLoadspin 2s linear infinite;  
+  animation: AnimLoadspin 2s linear infinite;
+}
+
+.cl_spin_loader_wrapper{
+	position: absolute;
+	left:0px;
+	top: 0px;
+	border: 2px solid red;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	z-index:100;
+	background-color:black; opacity:0.7;
+}
+
+/* --------------------- Spinner Start ------------------- */
+
+.cl_div_hdr_inner table{
+	margin: 0px auto;
+}
+
+.cl_sbrb_top_header
+{
+	height: 75px;
+	text-align: center;
+	padding-top: 0px;
+	
+	font-family: Pacifico;
+	font-size: 16pt;
+	color: #f99f4f;
+	/*min-height: 115px; height: 18vh; */
+	background-color: rgb(0,17,45); 
+
+	-webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-radial-gradient(100% 150%, circle, rgb(0,17,45) 24%, #021f4f 25%, #021f4f 28%, rgb(0,17,45) 29%, rgb(0,17,45) 36%, #021f4f 36%, #021f4f 40%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%), radial-gradient(circle at 0 150%, rgb(0,17,45) 24%, #021f4f 25%, #021f4f 28%, rgb(0,17,45) 29%, rgb(0,17,45) 36%, #021f4f 36%, #021f4f 40%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%), radial-gradient(circle at 50% 100%, #021f4f 10%, rgb(0,17,45) 11%, rgb(0,17,45) 23%, #021f4f 24%, #021f4f 30%, rgb(0,17,45) 31%, rgb(0,17,45) 43%, #021f4f 44%, #021f4f 50%, rgb(0,17,45) 51%, rgb(0,17,45) 63%, #021f4f 64%, #021f4f 71%, rgba(0,0,0,0) 71%, rgba(0,0,0,0) 100%), radial-gradient(circle at 100% 50%, #021f4f 5%, rgb(0,17,45) 6%, rgb(0,17,45) 15%, #021f4f 16%, #021f4f 20%, rgb(0,17,45) 21%, rgb(0,17,45) 30%, #021f4f 31%, #021f4f 35%, rgb(0,17,45) 36%, rgb(0,17,45) 45%, #021f4f 46%, #021f4f 49%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%), radial-gradient(circle at 0 50%, #021f4f 5%, rgb(0,17,45) 6%, rgb(0,17,45) 15%, #021f4f 16%, #021f4f 20%, rgb(0,17,45) 21%, rgb(0,17,45) 30%, #021f4f 31%, #021f4f 35%, rgb(0,17,45) 36%, rgb(0,17,45) 45%, #021f4f 46%, #021f4f 49%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%), rgb(165, 207, 249);
+  background: -moz-radial-gradient(100% 150%, circle, rgb(0,17,45) 24%, #021f4f 25%, #021f4f 28%, rgb(0,17,45) 29%, rgb(0,17,45) 36%, #021f4f 36%, #021f4f 40%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%), radial-gradient(circle at 0 150%, rgb(0,17,45) 24%, #021f4f 25%, #021f4f 28%, rgb(0,17,45) 29%, rgb(0,17,45) 36%, #021f4f 36%, #021f4f 40%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%), radial-gradient(circle at 50% 100%, #021f4f 10%, rgb(0,17,45) 11%, rgb(0,17,45) 23%, #021f4f 24%, #021f4f 30%, rgb(0,17,45) 31%, rgb(0,17,45) 43%, #021f4f 44%, #021f4f 50%, rgb(0,17,45) 51%, rgb(0,17,45) 63%, #021f4f 64%, #021f4f 71%, rgba(0,0,0,0) 71%, rgba(0,0,0,0) 100%), radial-gradient(circle at 100% 50%, #021f4f 5%, rgb(0,17,45) 6%, rgb(0,17,45) 15%, #021f4f 16%, #021f4f 20%, rgb(0,17,45) 21%, rgb(0,17,45) 30%, #021f4f 31%, #021f4f 35%, rgb(0,17,45) 36%, rgb(0,17,45) 45%, #021f4f 46%, #021f4f 49%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%), radial-gradient(circle at 0 50%, #021f4f 5%, rgb(0,17,45) 6%, rgb(0,17,45) 15%, #021f4f 16%, #021f4f 20%, rgb(0,17,45) 21%, rgb(0,17,45) 30%, #021f4f 31%, #021f4f 35%, rgb(0,17,45) 36%, rgb(0,17,45) 45%, #021f4f 46%, #021f4f 49%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%), rgb(165, 207, 249);  
+  background: radial-gradient(circle at 100% 150%, rgb(0,17,45) 24%, #021f4f 25%, #021f4f 28%, rgb(0,17,45) 29%, rgb(0,17,45) 36%, #021f4f 36%, #021f4f 40%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%), radial-gradient(circle at 0 150%, rgb(0,17,45) 24%, #021f4f 25%, #021f4f 28%, rgb(0,17,45) 29%, rgb(0,17,45) 36%, #021f4f 36%, #021f4f 40%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%), radial-gradient(circle at 50% 100%, #021f4f 10%, rgb(0,17,45) 11%, rgb(0,17,45) 23%, #021f4f 24%, #021f4f 30%, rgb(0,17,45) 31%, rgb(0,17,45) 43%, #021f4f 44%, #021f4f 50%, rgb(0,17,45) 51%, rgb(0,17,45) 63%, #021f4f 64%, #021f4f 71%, rgba(0,0,0,0) 71%, rgba(0,0,0,0) 100%), radial-gradient(circle at 100% 50%, #021f4f 5%, rgb(0,17,45) 6%, rgb(0,17,45) 15%, #021f4f 16%, #021f4f 20%, rgb(0,17,45) 21%, rgb(0,17,45) 30%, #021f4f 31%, #021f4f 35%, rgb(0,17,45) 36%, rgb(0,17,45) 45%, #021f4f 46%, #021f4f 49%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%), radial-gradient(circle at 0 50%, #021f4f 5%, rgb(0,17,45) 6%, rgb(0,17,45) 15%, #021f4f 16%, #021f4f 20%, rgb(0,17,45) 21%, rgb(0,17,45) 30%, #021f4f 31%, #021f4f 35%, rgb(0,17,45) 36%, rgb(0,17,45) 45%, #021f4f 46%, #021f4f 49%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%), rgb(165, 207, 249);
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 50px 25px;
+  background-size: 50px 25px;
+
+}
+
+.cl_page_sbrb_main {	
+	background-color: white;
+	background-image: linear-gradient(45deg, #ffe8bf 25%, transparent 25%, transparent 75%, #ffe8bf 75%),
+	linear-gradient(-45deg, #ffe8bf 25%, transparent 25%, transparent 75%, #ffe8bf 75%);
+	background-size:100px 100px; 
+	background-position: 0 0, 50px 50px;
+	}
+
+	h4
+	{
+		text-align: center;	
+	}
+
+
+.cl_td_block_nostream
+{
+	background-color: #262222;	
+	margin-top: 3px;
+	
+}
+
+
+
+.cl_div_grid_comex_wrapper
+{		
+	text-align: center;
+	background-color: #48494A;
+	border-radius: 5px;
+	box-shadow: 8px 8px 15px #888888;
+}
+
+.cl_tbl_comex_data
+{
+	border: 0px;
+	margin: 0px auto;
+	border-collapse: collapse;
+	font-family: Roboto;
+	font-size: 12pt;
+	width: 100%;
+}
+
+	/*------------ Comex Border Start ---------> */
+.cl_div_symbol_xauusd {
+	border-right: 2px solid black;
+}
+
+.cl_div_symbol_usdinr {
+	border-left: 2px solid black; 
+}
+
+.cl_tbl_comex_data  tr:nth-child(1){
+	border-bottom: 2px solid black;
+}
+
+.cl_tbl_comex_data  tr:nth-child(2){
+	border-bottom: 2px solid black;
+}
+
+/*------------ Comex Border End ---------> */
+
+
+
+.cl_tbl_comex_data tr:nth-child(2) > td
+{
+	padding: 15px 2px;
+}
+
+/* ------ Comex Ask Value Styling ---------  */
+.cl_tbl_comex_data tr:nth-child(2) > td  > span
+{	
+	/* border: 2px solid yellow;  */
+	padding: 10px;
+	border-radius: 5px;
+
+}
+
+.cl_td_comex_rate span
+{
+	color: white;
+	font-size: 14pt;	
+}
+
+/* --- Style Comex High and Low Start -----*/
+.cl_tbl_comex_data tr:nth-child(3) > td > span:nth-child(2){
+	font-size: 6pt;
+	color: orange;
+}
+
+.cl_span_hl{
+	font-size: 6pt;
+	font-weight: bold;
+	color: orange;
+
+}
+
+/* --- Style Comex High and Low End -----*/
+
+
+
+.cl_div_bullion_hdg
+{
+	font-family: sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	
+	color: white;
+	background-color: #7a21c6;
+
+	text-align:  center;
+	width: 80vw;
+	padding: 0.25vh 0vw;
+	margin-top: 0.5vh;
+	border-radius: 5px 5px 0vh 0vh;
+}
+
+
+
+.cl_symbol_hdr_vja {
+	background-color: #48494A;
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+.cl_div_grid_vja_symbol_wrapper
+{
+	text-align: center;
+	background-color: #48494A;
+	box-shadow: 8px 8px 15px #888888;
+	border-bottom: 2px solid black; 
+}
+
+
+.cl_div_grid_vja_symbol_wrapper > div:nth-child(1){
+
+/*border-right: 2px solid black; */
+
+}
+
+.cl_div_grid_vja_symbol_wrapper > div:nth-child(2){
+border-right: 2px solid black;
+
+}
+
+.cl_div_grid_vja_symbol_wrapper > div > table {
+	margin: 0px auto;
+}
+
+/*----------------- Style Label of Rate Block   Start ------------ */
+.cl_div_grid_vja_symbol_wrapper > div:nth-child(1)  > table tr:nth-child(1) td {
+	font-size: 10pt;
+}
+/*----------------- Style Label of Rate Block   End ------------ */
+
+
+/*---------------- Styling Rate Bid and Ask Cells Start ----->  */
+.cl_div_grid_vja_symbol_wrapper > div:nth-child(2)  {
+	background-color: transparent;
+	padding: 12px 0px;
+} 
+
+.cl_div_grid_vja_symbol_wrapper > div:nth-child(3) {
+	background-color: transparent;
+	padding: 12px 0px;
+}
+
+
+.cl_div_grid_vja_symbol_wrapper > div:nth-child(2)  > span{
+	/*border: 2px solid yellow; */
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 15pt;
+}
+.cl_div_grid_vja_symbol_wrapper > div:nth-child(3)  > span{
+	/*border: 2px solid yellow; */
+	padding: 10px;
+	border-radius: 5px; 
+	font-size: 15pt;
+}
+
+/*---------------- Styling Rate Bid and Ask Cells End ----->  */
+
+
+
+/* --------------- Ready Flag Start  --------------*/
+
+.cl_span_vja_ready_blinking {
+	/* display: none;  */
+	font-family: Roboto;
+  font-weight: bold;
+  font-size: 1.5vh;
+	animation: anim_blinkingText 1.5s infinite;
+}
+
+
+.cl_tr_vja_rdyflag_g999r ,  .cl_tr_vja_rdyflag_g999t , 
+.cl_tr_vja_rdyflag_gft999r ,  .cl_tr_vja_rdyflag_gft999t , 
+.cl_tr_vja_rdyflag_s999r ,  .cl_tr_vja_rdyflag_s999t
+{
+	/*display: none;		*/			/* Initially Set to None */
+
+}
+
+@keyframes anim_blinkingText{
+	0%{		color: white;	}
+	49%{	color: red;	}
+	50%{	color: yellow;	}
+	99%{	color: red;	}
+	100%{	color: white;	}
+}
+/* --------------- Ready Flag End  --------------*/
+
+
+/*---------------------------- Footer  start --------------------- */
+.cl_sbrb_div_outer_marquee {
+	 background: transparent; 
+}
+
+.cl_marq_scrollMsg {
+	font-family: Roboto, Montserrat, arial;
+	font-size: 12pt;
+	font-weight: normal;
+	color: black;
+	margin: 0px; 
+	padding: 0px;
+	overflow: hidden;
+}
+
+
+.custom-navbar
+{
+	margin: 0px;	
+
+
+}
+
+.cl_span_footernav_menuitem
+{
+	color:white;
+	font-weight:normal;
+	font-family: Roboto, arial;
+	font-size: 10pt;
+
+
+}
+
+.custom-navbar ul li a   
+{
+
+	background: #ba050b;	
+	background: linear-gradient( #ba050b, #160202 );
+	background: -moz-linear-gradient( #ba050b, #160202 );
+	background: -webkit-linear-gradient( #ba050b, #160202 );
+	background: -o-linear-gradient( #ba050b, #160202 );
+	background: -ms-linear-gradient( #ba050b, #160202 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ba050b', endColorstr='#160202',GradientType=0 );
+	
+}
+		
+.custom-navbar ul li a.ui-btn-active 
+{
+	background: #85051B;
+	background: linear-gradient( #DE2343, #FC3858 );
+}
+
+
+
+.cl_sbrb_div_footer_copyright
+{
+	text-align:left;
+	font-family: Montserrat, arial;
+	font-size: 4.5pt;
+	font-weight: normal;
+	color: #d6c2c2;
+	margin-top: 2px;
+}
+
+.cl_sbrb_divPoweredBy
+{
+	text-align: right;
+	font-family: Montserrat, arial;
+	font-size: 6pt;
+	font-weight: normal;	
+	color: #a7e804;
+}
+
+.cl_span_contact_email
+{
+	color:#33F2E9;
+	font-size: 10pt;
+}
+
+.cl_tbl_bankinfo
+{
+	border: 0px;
+	border-collapse: collpase;
+	margin: 0px auto;
+}
+
+
+/*---------------------------- Footer  end --------------------- */
+.cl_page_booking{
+		background-color: white;
+		background-image: linear-gradient(45deg, #fcefd9 25%, transparent 25%, transparent 75%, #fcefd9 75%),
+		linear-gradient(-45deg, #fcefd9 25%, transparent 25%, transparent 75%, #fcefd9 75%);
+		background-size: 100px 100px; 
+		background-position: 0 0, 50px 50px;
+}
+
+.cl_book_content{
+	border: 0px;
+}
+
+.cl_p_booking_hdr{
+	background-color: blue;
+	color:black; 
+	padding: 10px; 
+	font-size: 10pt;
+	color: white;
+	font-family: Roboto , arial;
+	font-weight: normal;	
+	border-radius: 5px;
+}
+
+.cl_div_booking_wrapper{
+	padding: 10px;
+	background-color: #205163;
+	border-radius: 5px;
+}
+
+.cl_tbl_booking{
+background-color: #205163;	
+width: 100%; 
+}
+
+.cl_tbl_booking tr td:nth-child(1){
+border-radius: 5px; 
+text-align: center;
+}
+
+
+.cl_tbl_booking tr td:nth-child(2){
+text-align: left;
+}
+
+.cl_tbl_booking tr td:nth-child(2) a{
+	font-size: 10pt;
+	color: white;
+	font-family: Roboto , arial;
+	font-weight: normal;
+}
+
+
+
+/*----------------- */
+.cl_page_contact{
+		background-color: white;
+		background-image: linear-gradient(45deg, #fcefd9 25%, transparent 25%, transparent 75%, #fcefd9 75%),
+		linear-gradient(-45deg, #fcefd9 25%, transparent 25%, transparent 75%, #fcefd9 75%);
+		background-size: 100px 100px; 
+		background-position: 0 0, 50px 50px;
+}
+
+.cl_contact_content{
+	border: 0px;
+}
+
+.cl_div_contact_wrapper{
+	padding: 10px;
+	border-radius: 5px;
+	
+	/*background-image: linear-gradient(#0b0363 0%, #07023a 50%, #ce1306 100%);	 */
+	background: #0b0363;	
+	background: linear-gradient( #0b0363 0%, #07023a 50%, #ce1306 100% );
+	background: -moz-linear-gradient( #0b0363 0%, #07023a 50%, #ce1306 100% );
+	background: -webkit-linear-gradient( #0b0363 0%, #07023a 50%, #ce1306 100% );
+	background: -o-linear-gradient( #0b0363 0%, #07023a 50%, #ce1306 100% );
+	background: -ms-linear-gradient( #0b0363 0%, #07023a 50%, #ce1306 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b0363', endColorstr='#07023a',GradientType=0 );
+}
+
+.cl_tbl_contact {
+		/*background-color: #205163;	*/
+		width: 100%;
+		font-family: Roboto , arial; 
+}
+
+/*---------------------------------------*/
+.cl_page_rtgs{
+		background-color: white;
+		background-image: linear-gradient(45deg, #fcefd9 25%, transparent 25%, transparent 75%, #fcefd9 75%),
+		linear-gradient(-45deg, #fcefd9 25%, transparent 25%, transparent 75%, #fcefd9 75%);
+		background-size: 100px 100px; 
+		background-position: 0 0, 50px 50px;
+}
+
+.cl_rtgs_content{
+	border: 0px;
+}
+
+.cl_div_rtgs_wrapper{
+	padding: 10px;
+	border-radius: 5px;
+	
+	
+	background: #000000;	
+	background: radial-gradient( #7c7a7a 0%, #161616 100% );
+	background: -moz-radial-gradient( #7c7a7a 0%, #161616 100% );
+	background: -webkit-radial-gradient( #7c7a7a 0%, #161616 100% );
+	background: -o-radial-gradient( #7c7a7a 0%, #161616 100% );
+	background: -ms-radial-gradient( #7c7a7a 0%, #161616 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c7a7a', endColorstr='#161616',GradientType=1 );
+}
+
+.cl_tbl_rtgs {
+		width: 100%;
+		font-family: Roboto , arial; 
+		font-size: 12pt;
+		color: white;
+}
+
+.cl_tbl_rtgs tr td:nth-child(1){
+	text-align: center;
+}
+
+.cl_tbl_rtgs tr td:nth-child(2){
+	text-align: center;
+}
+
+
+#id_a_backbtn_booking{
+  color: white;
+
+	background: #0d050d;	
+	background: radial-gradient( #e75333 0%, #480048 100% );
+	background: -moz-radial-gradient( #e75333 0%, #0d050d 100% );
+	background: -webkit-radial-gradient( #e75333 0%, #0d050d 100% );
+	background: -o-radial-gradient( #e75333 0%, #0d050d 100% );
+	background: -ms-radial-gradient( #e75333 0%, #0d050d 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e75333', endColorstr='#0d050d',GradientType=1 );
+
+}
+
+#id_a_backbtn_contact{
+	color: white;
+
+	background: #480048;	
+	background: radial-gradient( #c04848 0%, #480048 100% );
+	background: -moz-radial-gradient( #c04848 0%, #480048 100% );
+	background: -webkit-radial-gradient( #c04848 0%, #480048 100% );
+	background: -o-radial-gradient( #c04848 0%, #480048 100% );
+	background: -ms-radial-gradient( #c04848 0%, #480048 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c04848', endColorstr='#480048',GradientType=1 );
+
+}
+
+#id_a_backbtn_rtgs{
+	color: white;
+
+	background: #020211;	
+	background: radial-gradient( #5328b0 0%, #020211 100% );
+	background: -moz-radial-gradient( #5328b0 0%, #020211 100% );
+	background: -webkit-radial-gradient( #5328b0 0%, #020211 100% );
+	background: -o-radial-gradient( #5328b0 0%, #020211 100% );
+	background: -ms-radial-gradient( #5328b0 0%, #020211 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c04848', endColorstr='#020211',GradientType=1 );
+
+}
