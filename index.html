@@ -12,15 +12,14 @@
 	<link rel="stylesheet" type='text/css' href="css/jquery.mobile.structure-1.4.5.min.css" />
 	<link rel="stylesheet" type='text/css' href="css/jquery.mobile.theme-1.4.5.min.css" />
 	<link rel="stylesheet" type='text/css' href="css/animate.css-master/animate.min.css" />
-	<link rel="stylesheet" type='text/css' href="css/SBRBGetMobileRates.css?ts=20181022061515" />
-	<!-- <link rel='stylesheet' type='text/css' href='css/rupee.css'></link>
-	<link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>	 -->
+	<link rel="stylesheet" type='text/css' 
+		href="css/SBRBGetMobileRates.css?mod=<?php echo filemtime('css/SBRBGetMobileRates.css'); ?>" />
 	
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/jquery.mobile-1.4.5.min.js"></script>
 	<script src="js/jquery.marquee.min.js"></script>
-	<script src="js/SBRBGetMobileRates.js?ts=20181022061488"></script>
+	<script 
+	src="js/SBRBGetMobileRates.js?mod=<?php echo filemtime('js/SBRBGetMobileRates.js'); ?>" ></script>
 	
 </head> 
 
@@ -101,7 +100,7 @@
 					</tr>
 					<tr>
 						<td colspan="2" class="cl_td_comex_rate"> 
-								<span id="id_span_data_xauusd_ask"> 1225.63 </span> 
+								<span id="id_span_data_xauusd_ask">&nbsp;</span> 
 						</td>
 					</tr>
 					<tr>
@@ -307,6 +306,9 @@
 	
 	</div>			<!--  Close main / Content -->
 	
+
+
+
 	<!--               Footer           -->
 	<div data-role="footer" data-position="fixed" 
 		data-tap-toggle="false"
@@ -585,13 +587,14 @@
 
 
 
+
 				<div data-role="footer">
 					
 				</div> <!-- /footer -->
 
 		</div> <!--  myBookingPage   -->
 
-<div data-role="page" id="myContactPage" class="cl_page_contact">
+  <div data-role="page" id="myContactPage" class="cl_page_contact">
 			<div data-role="header">
 		
 				</div> <!-- /header -->		
@@ -682,7 +685,7 @@
 					
 				</div> <!-- /footer -->
 				
-		</div>    <!--myContactPage   -->
+  </div>    <!--myContactPage   -->
 
 
 
@@ -749,19 +752,19 @@
 		</div>    <!-- myRtgsPage   -->
 
 
-
-
 <script type="text/javascript">
 
 $(document).ready(function() {
   // executes when HTML-Document is loaded and DOM is ready
-  jsPostWindowLoad();
+  jsPostWindowLoad();  
+
 });
 
 
 	$(window).load(function() {
 		// executes when complete page is fully loaded, including all frames, objects and images
 		jsPostDocumentReady();
+
 	});
 
 </script>
