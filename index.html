@@ -752,22 +752,41 @@
 		</div>    <!-- myRtgsPage   -->
 
 
+
+
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics Start -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128112856-1"></script>
 <script type="text/javascript">
+	$(document).ready(function() {
+	  // executes when HTML-Document is loaded and DOM is ready
+	  jsPostDocumentReady();
 
-$(document).ready(function() {
-  // executes when HTML-Document is loaded and DOM is ready
-  jsPostWindowLoad();  
-
-});
+	});
 
 
 	$(window).load(function() {
 		// executes when complete page is fully loaded, including all frames, objects and images
-		jsPostDocumentReady();
+		jsPostWindowLoad();  		
 
 	});
 
+
+
+  // Google Analytics Start --->
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-128112856-1');
+
+  // Google Analytics End --->
 </script>
+<!-- Global site tag (gtag.js) - Google Analytics End -->
+
 
 </body>
 </html>
